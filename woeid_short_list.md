@@ -2,8 +2,8 @@
 	<!-- why, markdown... -->
 	<thead>
 		<tr>
-			<th>Name/Title</th>
 			<th>WOEID</th>
+			<th>Name/Title</th>
 		</tr>
 	<thead>
 	<tbody>
@@ -17,7 +17,7 @@
 <tr><td>2391279</td><td>Denver, CO</td></tr>
 <tr><td>2475687</td><td>Portland, OR</td></tr>
 <tr><td>2490383</td><td>Seattle, WA</td></tr>
-<tr><td>2458833</td><td>New Orlands, LA"}
+<tr><td>2458833</td><td>New Orlands, LA</td></tr>
 <tr><td>2487956</td><td>San Francisco, CA</td></tr>
 <tr><td>2450022</td><td>Miami, FL</td></tr>
 <tr><td>2486982</td><td>St. Louis, MO</td></tr>
