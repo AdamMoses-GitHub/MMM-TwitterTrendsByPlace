@@ -82,12 +82,14 @@ The following properties can be configured:
 		<tr>
 			<td><code>placeName</code></td>
 			<td>The name/title of the location for which the Twitter trending topics will be gathered for. This should match the place set by the <code>placeWoeid</code> value. However, it can be set to any string and allows the user to decide based on their display preference, i.e. could be "New York", "NYC", "New York, New York", "The Big Apple", etc.<br>
+			<br><b>Example:</b> <code>New York, NY</code>
 			<br>This value is <b>REQUIRED</b>
 			</td>
 		</tr>
 		<tr>
 			<td><code>placeWoeid</code></td>
 			<td>The "Where On Earth ID"/WOEID value for the city or place you are trying to gather trending topics for. These can be searched for at <a href="http://woeid.rosselliot.co.nz/lookup/">http://woeid.rosselliot.co.nz/lookup/</a>. <b>NOTE:</b> Trending Topics are only available for the largest cities or places, if the WOEID you use does not work pick another large city or place and try again.<br>
+			<br><b>Example:</b> <code>2459115</code>
 			<br>This value is <b>REQUIRED</b>
 			</td>
 		</tr>		
