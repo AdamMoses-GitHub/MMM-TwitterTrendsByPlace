@@ -24,10 +24,10 @@ module.exports = NodeHelper.create({
 	socketNotificationReceived: function(notification, payload) {
 		if (notification === "ADD_TWITTERTRENDPLACE") {
 			// useful debug info
-			console.log("socketNotificationReceived = " 
+			/*console.log("socketNotificationReceived = " 
 							+ "ADD_TWITTERTRENDPLACE:"
 							+ payload.placeName + ":" 
-							+ payload.placeWoeid);
+							+ payload.placeWoeid);*/
 			// add the current config to an array of all configs used by the helper
 			this.moduleConfigs[this.moduleConfigs.length] = payload;
 			// this to self
