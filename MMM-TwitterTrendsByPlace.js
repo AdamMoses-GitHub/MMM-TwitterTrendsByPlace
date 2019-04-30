@@ -29,6 +29,12 @@ Module.register("MMM-TwitterTrendsByPlace", {
 		fade: false,
 		fadePoint: 0.5,
 	},
+	getTranslations: function() {
+		return {
+				en: "translations/en.json",
+				es: "translations/es.json",
+		}
+	},
 	// the start function
 	start: function() {
 		// log starting
@@ -40,7 +46,7 @@ Module.register("MMM-TwitterTrendsByPlace", {
 		this.error = false;
 		this.mostRecentUpdate = null;
 		// set the header to this place
-		this.data.header = "Twitter Trends For " + this.config.placeName;
+		this.data.header = this.translate("HEADER") + " " + this.config.placeName;
 		if ( (this.config.consumer_key != null) && (this.config.consumer_secret != null)
 				&& (this.config.access_token_key != null) && (this.config.access_token_secret != null)
 				&& (this.config.placeWoeid != null) )
