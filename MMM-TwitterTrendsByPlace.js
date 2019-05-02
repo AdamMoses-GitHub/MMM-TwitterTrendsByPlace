@@ -91,7 +91,7 @@ Module.register("MMM-TwitterTrendsByPlace", {
 		{
 			var wrapper = document.createElement("div");
 			wrapper.className = "xsmall";
-			wrapper.innerHTML = "Awaiting Trends...";
+			wrapper.innerHTML = this.translate("LOADING");
 			return wrapper;			
 		}
 		// main update handler
@@ -170,7 +170,7 @@ Module.register("MMM-TwitterTrendsByPlace", {
 		{
 			var wrapper = document.createElement("div");
 			wrapper.className = "xsmall";
-			wrapper.innerHTML = "Some Error Has Occured";
+			wrapper.innerHTML = this.translate("ERROR");
 			return wrapper;		
 		}		
 	}
