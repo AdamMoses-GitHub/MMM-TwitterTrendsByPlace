@@ -33,6 +33,7 @@ Module.register("MMM-TwitterTrendsByPlace", {
 		return {
 				en: "translations/en.json",
 				es: "translations/es.json",
+			        id: "translations/id.json",
 		}
 	},
 	// the start function
