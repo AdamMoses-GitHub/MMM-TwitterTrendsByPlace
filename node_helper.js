@@ -100,7 +100,7 @@ module.exports = NodeHelper.create({
 			else
 			{	  
 				// if there is an error, say so	
-				console.log("Error getting twitter trends for woeid = " + paraPlaceWoeid);
+				console.log("Error getting twitter trends for woeid = " + paramPlaceWoeid);
 				// send a message back about the error
 				var updateData = { timestamp: Date(),
 									woeid: paramPlaceWoeid }
