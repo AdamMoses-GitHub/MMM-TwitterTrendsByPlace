@@ -7,7 +7,10 @@ Example:
 
 ## Dependencies / Requirements
 
-This module requires the use of the `twitter` package for node.js. To install this please run `npm install twitter` from the root directory of your Magic Mirror installation.
+As with most MagicMirror modules, clone the repository in your ``MagicMirror/modules`` folder and install the dependencies: 
+```
+git clone https://github.com/AdamMoses-GitHub/MMM-TwitterTrendsByPlace && cd MMM-TwitterTrendsByPlace && npm install 
+```
 
 This module also requires Twitter access tokens and keys. For more information on acquiring these please visit <https://dev.twitter.com/oauth/overview/application-owner-access-tokens>.
 
