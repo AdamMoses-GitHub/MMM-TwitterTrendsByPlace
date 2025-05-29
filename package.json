@@ -1,0 +1,25 @@
+{
+  "name": "mmm-twittertrendsbyplace",
+  "version": "1.0.0",
+  "description": "Display the trending topics from Twitter (based on a given locale) in your MagicMirror",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamMoses-GitHub/MMM-TwitterTrendsByPlace.git"
+  },
+  "keywords": [
+    "Twitter",
+    "MagicMirror",
+    "Trends",
+    "Location",
+    "WOEID",
+    "Tweets"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdamMoses-GitHub/MMM-TwitterTrendsByPlace/issues"
+  },
+  "homepage": "https://github.com/AdamMoses-GitHub/MMM-TwitterTrendsByPlace#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}
